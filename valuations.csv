@@ -1,0 +1,215 @@
+ISO,Country/Territory,LongBondYield,PriceEarnings,ChangeLongBondYield,ChangePriceEarnings,TotalReturn
+AFG,Afghanistan,,,,,
+ALB,Albania,,,,,
+DZA,Algeria,,,,,
+ASM,American Samoa,,,,,
+ADO,Andorra,,,,,
+AGO,Angola,,,,,
+AIA,Anguilla,,,,,
+ATG,Antigua and Barbuda,,,,,
+ARG,Argentina,,9.9,,0.61875,-0.774089771
+ARM,Armenia,,,,,
+ABW,Aruba,,,,,
+AUS,Australia,2.13,16.7,0.519195612,1.012121212,2.529451874
+AUT,Austria,0.45,11.9,0.240641711,0.804054054,4.088515345
+AZE,Azerbaijan,,,,,
+BHS,"Bahamas, The",,,,,
+BHR,Bahrain,,9.9,,0.933962264,4.748361376
+BGD,Bangladesh,11.86,,1.317777778,,
+BRB,Barbados,,,,,
+BLR,Belarus,,,,,
+BEL,Belgium,1.06,19,0.484018265,1.310344828,1.798538806
+BLZ,Belize,,,,,
+BEN,Benin,,,,,
+BMU,Bermuda,,,,,
+BTN,Bhutan,,,,,
+BOL,Bolivia,,,,,
+BIH,Bosnia and Herzegovina,,,,,
+BWA,Botswana,,,,,
+BRA,Brazil,9.02,12.5,0.7046875,1.016260163,6.296491016
+BRN,Brunei Darussalam,0.829,15.3,0.243823529,1.254098361,-4.355688404
+BGR,Bulgaria,,,,,
+BFA,Burkina Faso,,,,,
+BDI,Burundi,,,,,
+KHM,Cambodia,,,,,
+CMR,Cameroon,,,,,
+CAN,Canada,2.1,16.5,0.744680851,0.859375,1.699382983
+CPV,Cape Verde,,,,,
+CYM,Cayman Islands,,,,,
+CAF,Central African Republic,,,,,
+TCD,Chad,,,,,
+CHL,Chile,1.83,17,0.7625,1.00591716,4.997733001
+CHN,China,3.208,12.7,0.716071429,2.081967213,9.614132095
+COL,Colombia,,11.8,,0.802721088,-4.392247222
+COM,Comoros,,,,,
+ZAR,"Congo, Dem. Rep.",,,,,
+COG,"Congo, Rep.",,,,,
+COK,Cook Islands,,,,,
+CRI,Costa Rica,,,,,
+CIV,C?te d'Ivoire,,,,,
+HRV,Croatia,2.31,12.7,,0.709497207,2.828930223
+CUB,Cuba,,,,,
+CYP,Cyprus,5.04,4.6,,0.075286416,-20.09631258
+CZE,Czech Republic,1.84,16.2,0.859813084,1.472727273,6.835812671
+DNK,Denmark,0.26,17.9,0.160692213,0.852380952,6.013259299
+DJI,Djibouti,,,,,
+DMA,Dominica,,,,,
+DOM,Dominican Republic,,,,,
+ECU,Ecuador,,,,,
+EGY,"Egypt, Arab Rep.",17.6,9.9,1.161716172,0.6,-6.475261081
+SLV,El Salvador,,,,,
+GNQ,Equatorial Guinea,,,,,
+ERI,Eritrea,,,,,
+EST,Estonia,,14.4,,1.142857143,4.680598894
+ETH,Ethiopia,,,,,
+FJI,Fiji,,,,,
+FIN,Finland,0.38,18.4,0.2,0.989247312,7.083238126
+FRA,France,0.78,18.6,0.331914894,1.039106145,5.870567996
+GUF,French Guiana,,,,,
+GAB,Gabon,,,,,
+GMB,"Gambia, The",,,,,
+GEO,Georgia,,,,,
+DEU,Germany,0.13,14.5,0.081761006,0.966666667,1.844945789
+GHA,Ghana,20.1,,0.796039604,,
+GRC,Greece,4.1437,12.9,0.631209347,4.448275862,-23.85123903
+GRL,Greenland,,,,,
+GRD,Grenada,,,,,
+GUM,Guam,,,,,
+GTM,Guatemala,,,,,
+GIN,Guinea,,,,,
+GNB,Guinea-Bissau,,,,,
+GUY,Guyana,,,,,
+HTI,Haiti,,,,,
+HND,Honduras,,,,,
+HKG,"Hong Kong SAR, China",1.833,13.7,0.728537361,1.191304348,8.226828602
+HUN,Hungary,2.7,10,0.487364621,0.699300699,16.74079362
+ISL,Iceland,5.332,,0.788990826,,
+IND,India,7.29,22.6,0.820945946,1.486842105,11.41054632
+IDN,Indonesia,7.801,18.9,0.978918308,1.010695187,4.327916835
+IRN,"Iran, Islamic Rep.",,,,,
+IRQ,Iraq,,,,,
+IRL,Ireland,0.382,20.3,0.12758851,0.886462882,2.298752224
+ISR,Israel,-0.21,13.6,,0.772727273,0.065980242
+ITA,Italy,2.073,12.5,0.840632603,0.573394495,1.028109033
+JAM,Jamaica,,,,,
+JPN,Japan,-0.023,13.3,-0.035384615,0.93006993,6.502588378
+JEY,"Jersey, Channel Islands",,,,,
+JOR,Jordan,6.789,11.3,1.70749497,0.738562092,1.099249094
+KAZ,Kazakhstan,9.28,,2.099547511,,
+KEN,Kenya,14,,1.007194245,,
+KIR,Kiribati,,,,,
+PRK,"Korea, Dem. Rep.",,,,,
+KOR,"Korea, Rep.",1.8,10,0.6271777,0.64516129,2.938978978
+KSV,Kosovo,,,,,
+KWT,Kuwait,,14,,0.760869565,1.178866514
+KGZ,Kyrgyz Republic,,,,,
+LAO,Lao PDR,,,,,
+LVA,Latvia,0.453,,,,
+LBN,Lebanon,14.14,,,,
+LSO,Lesotho,,,,,
+LBR,Liberia,,,,,
+LBY,Libya,,,,,
+LIE,Liechtenstein,,,,,
+LTU,Lithuania,1.25,14.2,0.378902698,0.840236686,3.175928426
+LUX,Luxembourg,0.26,12.4,0.144444444,0.576744186,-7.864677873
+MAC,"Macao SAR, China",,,,,
+MKD,"Macedonia, FYR",,,,,
+MDG,Madagascar,,,,,
+MWI,Malawi,25.5,,0.918918919,,
+MYS,Malaysia,4.069,19.1,0.990265271,1.164634146,-2.034170701
+MDV,Maldives,,,,,
+MLI,Mali,,,,,
+MLT,Malta,1.83,15.6,0.444174757,1,5.245088511
+MHL,Marshall Islands,,,,,
+MTQ,Martinique,,,,,
+MRT,Mauritania,,,,,
+MUS,Mauritius,,,,,
+MEX,Mexico,4.11,15.4,1.574712644,0.797927461,-2.607965989
+FSM,"Micronesia, Fed. Sts.",,,,,
+MDA,Moldova,,,,,
+MCO,Monaco,,,,,
+MNG,Mongolia,,,,,
+MNE,Montenegro,,,,,
+MAR,Morocco,3.62,16.8,0.629565217,1.018181818,3.340648294
+MOZ,Mozambique,,,,,
+MMR,Myanmar,,,,,
+NAM,Namibia,,,,,
+NRU,Nauru,,,,,
+NPL,Nepal,,,,,
+NLD,Netherlands,0.24,17,0.132596685,0.821256039,6.181768479
+ANT,Netherlands Antilles (former),,,,,
+NZL,New Zealand,2.18,20,0.475982533,1.129943503,9.054430726
+NIC,Nicaragua,,,,,
+NER,Niger,,,,,
+NGA,Nigeria,13.821,7.7,1.004360148,0.620967742,-14.15451174
+NIU,Niue,,,,,
+NOR,Norway,1.77,14.5,0.612456747,1.150793651,2.214939955
+OMN,Oman,,9,,0.789473684,-4.338994502
+PAK,Pakistan,13.12,10,1.022603274,0.840336134,-1.039726952
+PLW,Palau,,,,,
+PAN,Panama,,,,,
+PNG,Papua New Guinea,,,,,
+PRY,Paraguay,,,,,
+PER,Peru,,15.7,,1.198473282,7.655711237
+PHL,Philippines,6.9,19.2,1.725,1,2.537842487
+POL,Poland,2.954,12.5,0.698840785,0.919117647,-0.488392459
+PRT,Portugal,1.479,16.6,0.363123005,0.860103627,-3.814457332
+PRI,Puerto Rico,,,,,
+QAT,Qatar,,13.3,,0.880794702,0.949401102
+REU,R?union,,,,,
+ROM,Romania,4.86,7.4,0.908411215,0.804347826,3.920494269
+RUS,Russian Federation,8.42,5.8,0.942889138,1.183673469,6.779164108
+RWA,Rwanda,,,,,
+WSM,Samoa,,,,,
+SMR,San Marino,,,,,
+STP,S?o Tom? and Principe,,,,,
+SAU,Saudi Arabia,,17.7,,1.047337278,4.710815326
+SEN,Senegal,,,,,
+SRB,Serbia,,,,,
+SYC,Seychelles,,,,,
+SLE,Sierra Leone,,,,,
+SGP,Singapore,,12.8,,1,2.58260763
+SVK,Slovak Republic,1.03,12.2,0.417004049,1.070175439,11.14040301
+SVN,Slovenia,4.5,11.1,,1,4.195347604
+SLB,Solomon Islands,,,,,
+SOM,Somalia,,,,,
+ZAF,South Africa,8.67,16.5,1.032142857,0.959302326,0.937104107
+SSD,South Sudan,,,,,
+ESP,Spain,1.3,15,0.392749245,0.837988827,1.10700856
+LKA,Sri Lanka,,8.7,,0.659090909,-4.605950366
+KNA,St. Kitts and Nevis,,,,,
+LCA,St. Lucia,,,,,
+VCT,St. Vincent and the Grenadines,,,,,
+SDN,Sudan,,,,,
+SUR,Suriname,,,,,
+SWZ,Swaziland,,,,,
+SWE,Sweden,0.36,18.6,0.166666667,1.291666667,2.19388253
+CHE,Switzerland,-0.24,20.3,-0.25,1.051813472,4.487868938
+SYR,Syrian Arab Republic,,,,,
+TWN,"Taiwan, China",,13.5,,0.84375,8.289284939
+TJK,Tajikistan,,,,,
+TZA,Tanzania,14.94,,0.936090226,,
+THA,Thailand,2.49,16.1,0.655263158,1.166666667,7.193968564
+TMP,Timor-Leste,,,,,
+TGO,Togo,,,,,
+TON,Tonga,,,,,
+TTO,Trinidad and Tobago,,,,,
+TUN,Tunisia,7.16,,1.0544919,,
+TUR,Turkey,14.47,7.5,1.444111776,0.949367089,-5.172928192
+TKM,Turkmenistan,,,,,
+TUV,Tuvalu,,,,,
+UGA,Uganda,15.75,,1.11662531,,
+UKR,Ukraine,,,,,
+ARE,United Arab Emirates,,10.9,,0.731543624,1.860494323
+GBR,United Kingdom,1.66,14.4,0.495522388,0.993103448,1.373978562
+USA,United States,2.87,21.1,0.856716418,1.128342246,10.53708206
+URY,Uruguay,,,,,
+UZB,Uzbekistan,,,,,
+VUT,Vanuatu,,,,,
+VEN,"Venezuela, RB",,1955.6,,97.78,-43.04111817
+VNM,Vietnam,4.755,16.6,0.559741024,1.169014085,11.84269147
+VIR,Virgin Islands (U.S.),,,,,
+WBG,West Bank and Gaza,,,,,
+YEM,"Yemen, Rep.",,,,,
+ZMB,Zambia,23.5,,1.312849162,,
+ZWE,Zimbabwe,,,,,

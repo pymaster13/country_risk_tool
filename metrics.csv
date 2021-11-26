@@ -1,0 +1,23 @@
+Code,Name,Units,Decription,Source,Category,ESG,SDG,Descending,Default
+EcologicalFootprint,Ecological footprint,Planets per capita,Ecological footprint per capita (combining range of environmental resources),www.footprintnetwork.org,Capital,Environment,Planet,Y,Y
+GHGIntensity,GHG emissions relative to GDP,Tonnes per $mn GDP,GHG emissions/ GDP,World Bank and World Economic Forum,Capital,Environment,Planet,Y,Y
+EnergyIntensity,Primary energy relative to GDP,PJ per $mn GDP,Primary energy use as share of GDP,World Bank and World Economic Forum,Capital,Environment,Planet,Y,
+WaterIntensity,Water consumption relative to GDP,Cubic metres per $mn GDP,Water consumption relative to GDP,World Bank and World Economic Forum,Labour,Environment,Planet,Y,Y
+ClimateCosts,Climate damages relative to GDP,Percent of GDP,Climate damages as share of GDP (trend value),MunichRe,Labour,Environment,Planet,Y,Y
+InfraQuality,Quality of infrastructure,Index (1-100),Quality of overall infrastructure,World Bank and World Economic Forum,Labour,Governance,Prosperity,,Y
+ForeignPop,Foreign born population,Percent of population,Foreign born population as share of total,World Bank and World Economic Forum,Productivity,Social,People,,
+EduAttainment,Educational attainment index,Index (1-100),Educational attainment index,World Bank and World Economic Forum,Productivity,Social,Prosperity,,Y
+EaseBusiness,Ease of Doing Business,Index (1-100),Ease of Doing Business,World Bank and World Economic Forum,Productivity,Governance,Peace,,Y
+ICTDevelopment,ICT Development index,Index (1-100),ICT Development index,World Bank and World Economic Forum,Fiscal capacity,Social,People,,Y
+KOFIndex,KOF globalisation index,Index (1-100),"KOF annual index of globalisation across trade, capital, migration etc",World Bank and World Economic Forum,Fiscal capacity,Social,Peace,,Y
+RegulatoryQuality,Regulatory quality,Index (1-100),"Regulatory quality based on World Bank measures, combining range of inputs",World Bank and World Economic Forum,Fiscal capacity,Governance,Partnerships,,
+ClimateResilience,Climate resilience index,Index (1-100),Climate change resilience index,World Bank and World Economic Forum,Risks,Environment,Planet,,Y
+GlobalAdaptation,Global Adaptation index,Index (1-100),Global Adaptation Initiative,World Bank and World Economic Forum,Risks,Governance,Prosperity,,Y
+GovtEffectiveness,Government effectiveness,Index (1-100),Government effectiveness,World Bank and World Economic Forum,Risks,Governance,Partnerships,,Y
+LongBondYield,Long bond yield,Percent,LongBondYield,Refinitiv,Valuation,,,,
+PriceEarnings,Price earnings,x,PriceEarnings,Refinitiv,Valuation,,,,
+ChangeLongBondYield,5yr change in long bond yield,Percent,ChangeLongBondYield,Refinitiv,Valuation,,,,
+ChangePriceEarnings,5yr change in PE,Percent,ChangePriceEarnings,Refinitiv,Valuation,,,,
+TotalReturn,5yr total return,Percent,TotalReturn,Refinitiv,Valuation,,,,
+GDPPerCapita,GDP per capita,US$,GDP per person,World Economic Forum,,,,,
+GDP,Gross domestic product,US$bn,Value of economic output,World Economic Forum,,,,,

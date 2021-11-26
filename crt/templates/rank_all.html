@@ -1,0 +1,31 @@
+{% extends "index.html" %}
+
+{% block content %}
+{% include "menu.html" %}
+<div style="max-width:50vw; padding:2%;">
+<table class="table table-sm" >
+  <thead>
+    <tr>
+      <th scope="col">ISO</th>
+      <th scope="col">Country/Territory</th>
+      <th scope="col" colspan=2>Overall ranking</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for key, value in data.items %}
+    <tr>
+      <th scope="row">{{key}}</th>
+      <td>{{value.country}}</td>
+      <td>{{value.Overall_ranking}}%</td>
+      <td>
+        <div class="progress" style="min-width:15vw;">
+        <div class="progress-bar" role="progressbar" style="width: {{value.Overall_ranking}}%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{value.Overall_ranking}}%</div>
+        </div>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+
+{% block content %}
+{% include "menu.html" %}
+
+<form action="{% url 'country_valuation' id_session=now_id_session %}" enctype="multipart/form-data" method="post">
+  {% csrf_token %}
+<select name="ranking" class="custom-select">
+  <option selected>Select type of country ranking </option>
+  {% for metric in metrics %}
+    <option value={{metric}}>{{metric}}</option>
+  {% endfor%}
+</select>
+<select name="valuation" class="custom-select">
+  <option selected>Select valuation metric</option>
+  {% for valuation in valuations %}
+    <option value={{valuation}}>{{valuation}}</option>
+  {% endfor%}
+<input type="submit" class="btn btn-outline-primary" name = 'data_valuation' value="Chart">
+</form>
+
+{{ chart|safe }}
+
+{% endblock %}

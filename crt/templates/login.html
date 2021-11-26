@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<h3> Enter your email and password:</h3>
+
+      <form action="" method="post" >
+
+        {% csrf_token %}
+
+        {{login_form.as_p}}
+
+        <p><input class="login-signin" type="submit" value="Login"></p>
+
+      </form>
+{% endblock %}

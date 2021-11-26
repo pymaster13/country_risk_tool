@@ -1,0 +1,110 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+{% include "menu.html" %}
+
+
+<form action="{% url 'table' %}" enctype="multipart/form-data" method="post">
+  {% csrf_token %}
+<div style="max-width: 50vw;">
+  <table class="table table-sm">
+    <tbody>
+      <tr>
+        <th scope="row"> Min GDP per capita </th>
+        <td><input name="min_GDP_cap" value={{min_GDP_cap}}></input></td>
+        <th scope="row" rowspan=5> <input type="submit" class="btn btn-outline-primary" name = "number_countries" value="Filter countries"></input></th>
+        <th scope="row" rowspan=5>
+          <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Select template
+            </button>
+            <div class="dropdown-menu">
+              {% for id_session, text in sessions.items %}
+                <a class="dropdown-item" href="{% url 'table_session' id_session=id_session %}">{{text}}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </th>
+      </tr>
+      <tr>
+        <th scope="row"> Max GDP per capita </th>
+        <td><input name="max_GDP_cap" value={{max_GDP_cap}}></input></td>
+      </tr>
+      <tr>
+        <th scope="row"> Min GDP </th>
+        <td><input name="min_GDP" value={{min_GDP}}></input></td>
+      </tr>
+      <tr>
+        <th scope="row"> Max GDP </th>
+        <td><input name="max_GDP" value={{max_GDP}}></input></td>
+      </tr>
+      <tr>
+        <th scope="row"> Number of countries </th>
+        <td>{{Number_countries}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <table class="table table-striped table-sm">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Category</th>
+        <th scope="col">Category weight</th>
+        <th scope="col">Metric title</th>
+        <th scope="col">Decription</th>
+        <th scope="col">Units</th>
+        <th scope="col">Source</th>
+        <th scope="col">Coverage</th>
+        <th scope="col">Include</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for category in categories %}
+        {% for key, value in count.items %}
+          {% if key == category.name %}
+            <tr>
+              <th scope="row" rowspan={{value}}> {{category.name}} </th>
+              {% for categor, weight in weights.items %}
+                {% if categor == category.name %}
+                  <td rowspan={{value}}><input name={{category.name}} value={{weight}}></input></td>
+                {% endif %}
+              {% endfor %}
+                    {% for metric in metrics %}
+                        {% if category.name == metric.category.name %}
+                          <td>{{metric.name}}</td>
+                          <td>{{metric.decription}}</td>
+                          <td>{{metric.units}}</td>
+                          <td>{{metric.source}}</td>
+                          {% for metr, len in coverage.items %}
+                            {% if metr == metric.name %}
+                              <td>{{len}}</td>
+                            {% endif %}
+                          {% endfor %}
+                            {% for metr, check in checked.items %}
+                              {% if metr == metric.code and check == True %}
+                                <td>
+                                  <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch{{metric.code}}" name={{metric.code}} checked>
+                                    <label class="custom-control-label" for="customSwitch{{metric.code}}"></label>
+                                  </div></td></tr>
+                                {% elif metr == metric.code and check == False %}
+                                <td>
+                                  <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch{{metric.code}}" name={{metric.code}}>
+                                    <label class="custom-control-label" for="customSwitch{{metric.code}}"></label>
+                                  </div>
+                                </td>
+                              </tr>
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                  {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </tbody>
+  </table>
+</form>
+{% endblock %}

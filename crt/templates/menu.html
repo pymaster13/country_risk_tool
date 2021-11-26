@@ -1,0 +1,37 @@
+{% block content %}
+
+<div class="btn-group"">
+  <div style="padding-left:5px; padding-top:5px;">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Country ranking
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="{% url 'rank_all' id_session=now_id_session %}">Overall ranking</a>
+    <a class="dropdown-item" href="{% url 'rank_category' id_session=now_id_session %}">Category rankings</a>
+    <a class="dropdown-item" href="{% url 'rank_ESG' id_session=now_id_session %}">ESG rankings</a>
+    <a class="dropdown-item" href="{% url 'rank_SDG' id_session=now_id_session %}">SDG rankings</a>
+  </div>
+</div>
+
+  <div style="padding-left:5px; padding-top:5px;">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Country summary
+  </button>
+  <div class="dropdown-menu">
+    {% for iso, value in data.items %}
+    <a class="dropdown-item" href="{% url 'country_info' id_session=now_id_session iso=iso%}">{{value.country}}</a>
+    {% endfor%}
+  </div>
+</div>
+
+  <div style="padding-left:5px; padding-top:5px;">
+  <a class="btn btn-outline-primary" name = 'country_comparison' href="{% url 'country_comparison' id_session=now_id_session %}"> Countries comparison </a>
+  </div>
+
+    <div style="padding-left:5px; padding-top:5px;">
+    <a class="btn btn-outline-primary" name = 'country_valuation' href="{% url 'country_valuation' id_session=now_id_session %}"> Countries valuation </a>
+    </div>
+
+</div>
+
+{% endblock %}

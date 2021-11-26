@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<h3>File upload (metrics,data inputs,valuations)</h3>
+
+<form action="{% url 'upload' %}" enctype="multipart/form-data" method="post" >
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="Upload in DB"></input>
+</form>
+
+{% endblock %}
