@@ -1,4 +1,4 @@
-# Проект на Django templates, предназначенный для оценки рисков в различных сферах для тех или иных стран. (2019)
+### Проект на Django templates, предназначенный для оценки рисков в различных сферах для тех или иных стран. (2019)
 ### Проект был реализован для иностранного заказчика. Он предоставил несколько шаблонов, которые должны подгружаться и на основе которых должны строиться необходимые таблицы и производиться определенные расчеты.
 Краткая информация по проекту:
 - For working of site: It is neccessary log in on site as admin. Go to "Upload" page. Then add 3 files (metrics, data_inputs, valuation) .csv or .xls to data base. Need start to upload with metrics.csv(xls)!!!
