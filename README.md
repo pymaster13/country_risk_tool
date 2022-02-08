@@ -1,6 +1,6 @@
 # Country Risk Tool
 
-A Django 2 project designed to assess risks in various areas for certain countries. (2019) 
+A Django 2 project designed to assess risks in various areas for certain countries (2019). 
 
 ## Getting Started
 Python version: 3.7.5
